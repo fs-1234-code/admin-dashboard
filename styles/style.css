@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+:root {
+  --color-bg: #f7f7f7;
+  --color-primary: #183109;
+  --color-secondary: #1b4b00;
+  --color-text: #050505;
+}
+
 /* Normalizing :D */
 /* 1. Global reset */
 *,
