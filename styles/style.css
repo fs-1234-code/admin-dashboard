@@ -1,1 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Normalizing :D */
+/* 1. Global reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Your Font", sans-serif;
+}
+
+/* 2. Shared form-control normalization */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+/* 3. Search-specific normalization */
+input[type="search"] {
+  appearance: none;
+  -webkit-appearance: none;
+  min-width: 0;
+}
+
+/* 4. Focus styles */
+input:focus-visible,
+button:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #818cf8;
+  outline-offset: 2px;
+}
